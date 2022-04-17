@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".ui.homescreen.HomeFragment">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/terms"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/accept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/accept"
+        android:textSize="20sp"
+        android:visibility="gone"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/doctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/doctor_s_name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/patient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/patient_s_name"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/init"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start diagnosis"
+        android:textSize="20sp"
+        android:visibility="visible"/>
+</LinearLayout>

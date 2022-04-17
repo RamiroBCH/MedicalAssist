@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Medical Assist</string>
+    <string name="action_settings">Settings</string>
+    <string name="terms">"I have read, understood and I accept and agree to comply with the Terms of Use of EndlessMedicalAPI and Endless Medical services. The Terms of Use are available on endlessmedical.com"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="accept">Accept</string>
+    <string name="doctor_s_name">Doctor\'s name</string>
+    <string name="patient_s_name">Patient\'s name</string>
+</resources>
